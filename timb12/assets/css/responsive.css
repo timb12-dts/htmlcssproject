@@ -1,0 +1,79 @@
+@media all and (max-width: 1000px){
+    .wrapper{
+        max-width:950px!important;
+    }
+}
+
+@media all and (max-width: 670px) {
+    /*navigation*/
+    header{
+        height: unset;
+    }
+    header .container{
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-left {
+        padding: 10px 0;
+        float: unset;
+    }
+    .header-left .logo{
+        margin: 0;
+    }
+    .header-right{
+        display: none;
+        margin-top: 9px;
+        float:unset;
+        width: 100%;
+    }
+    .header-right.active{
+        display: block;
+    }
+    .header-right a {
+        display: block;
+        box-sizing: border-box;
+    }
+    .menu{
+        display: block;
+        margin-right: 15px;
+    }
+    .container p{
+        font-size: 14px;
+    }
+    .container h1{
+        font-size:36px;
+    }
+    .btn-wrapper .btn{
+        display: block;
+        width: 100%;
+    }
+    /*mitra and footer*/
+    .wrapper{
+        max-width:520px!important;
+    }
+    .benefit,.profile{
+        width:100%
+    }
+    #mitra .wrapper,footer .wrapper{
+        flex-direction: column;
+    }
+    #mitra .wrapper h2{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #mitraLogo{
+        text-align: center;
+    }
+    #mitraLogo img{
+        width:50%;
+    }
+    .openMenu{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+}

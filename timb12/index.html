@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team B12</title>
+    <link rel="stylesheet" href="./assets/css/Stylesheet.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="header-left">
+            <img src="./assets/images/logo.png" class="logo">
+          </div>
+          <button onclick="openMenu()" id="menu" class="menu"><i class="fa fa-bars"></i></button>
+          <div id="header-right" class="header-right">
+                <a href="#">Tentang</a>
+                <a href="#">Tujuan</a>
+                <a href="#">Team</a>
+                <a href="#">Blog</a>
+            </div>
+        </div>
+      </header>
+      <div class="top-wrapper">
+        <div class="container">
+          <p>Digital Talent Scholarship 2021</p>
+          <h1>Membangun <span>Keahlian Baru</span> dengan</h1>
+          <h1 class="h1-bawah">Belajar Bersama Kami!</h1>
+          <div class="btn-wrapper">
+            <a href="#" class="btn tentang">Tentang Kami</a>        
+            <a href="#" class="btn kontak">Kontak Kami</a>
+          </div>
+        </div>
+    </div>
+    <section id="about">
+
+    </section>
+    
+    <section id="mitra" class="bg-gray">
+        <div class="container">
+            <div id="mitraText">
+                <h2 class="text-primary">
+                    Mitra Pelatihan <br> Digital Talent Scolarships 
+                </h2>
+            </div>
+            <div id="mitraLogo">
+                <img src="./assets/images/images (1).png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="manfaat">
+
+    </section>
+
+    <div class="Profile-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Profil Team Kami</h2>
+        </div>
+        <div class="profiles">
+          <div class="profile">
+              <div class="foto-profil">
+                <img src="./assets/images/agri-putra.png" width="130px">
+                <p>Agri Putra</p>
+              </div>
+              <p class="text-contents">Pria yang lahir di Jakarta pada 23 tahun silam ini bekerja lepas sebagai seorang Photographer. </p>
+          </div>
+          <div class="profile">
+              <div class="foto-profil">
+                <img src="./assets/images/profile2.png" width="130px">
+                <p>Naufal Arman Hafidz</p>
+              </div>
+              <p class="text-contents">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique laudantium vero nam .</p>
+          </div>
+          <div class="profile">
+              <div class="foto-profil">
+                <img src="./assets/images/dimasaldipratama.png" width="130px">
+                <p>Dimas Aldi pratama</p>
+              </div>
+              <p class="text-contents">Pria yang lahir di sidoarjo, jawa timur pada 23 tahun silam ini bekerja sebagai desain grafis. </p>
+          </div>
+          <div class="profile">
+              <div class="foto-profil">
+                <img src="./assets/images/profile4.png" width="130px">
+                <p>Mardhiyatna</p>
+              </div>
+              <p class="text-contents">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique laudantium vero nam .</p>
+          </div>
+          <div class="profile">
+              <div class="foto-profil">
+                <img src="./assets/images/profile5.png" width="130px">
+                <p>Harris Putra rifai</p>
+              </div>
+              <p class="text-contents">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique laudantium vero nam .</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="container">
+            <img src="./assets/images/logo-white.png" alt="">
+            <span>copyright 2021. All Right Reserved</span>
+        </div>
+    </footer>
+</body>
+<script>
+  function openMenu()
+  {
+    let getMenuBtn=document.getElementById("menu");
+    let getMenu=document.getElementById("header-right");
+    getMenuBtn.classList.toggle('active');
+    getMenu.classList.toggle('active');
+  }
+</script>
+</html>
