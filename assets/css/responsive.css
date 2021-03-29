@@ -54,6 +54,15 @@
     .container-1 {
         flex-direction: column;
     }
+    
+    .boxs {
+        margin-bottom: 10px;
+    }
+    
+    .boxs h2 {
+        text-align: center;
+    }
+    
     /*mitra and footer*/
     .wrapper{
         max-width:520px!important;
