@@ -190,11 +190,15 @@ btn-wrapper {
   border-radius: 10px;
   align-items: center;
   justify-content: space-between;
-  padding-left: 130px;
-  padding-right: 130px;
+  padding-left: 80px;
+  padding-right: 80px;
   background-color:rgb(240, 248, 254);
 }
 
+.boxs {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 .boxs h2{
   font-size: 40px;
   font-weight: bold;
