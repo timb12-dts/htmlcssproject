@@ -180,6 +180,33 @@ btn-wrapper {
   color: rgb(65, 105, 225);
 }
 /*Tutup Profile*/
+
+.container-1 {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 130px;
+  padding-right: 130px;
+  background-color:rgb(240, 248, 254);
+}
+
+.boxs h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(65, 105, 225);
+  margin-bottom: 10px;
+}
+
+.boxs p {
+  line-height: 1.5;
+}
+.boxs img {
+  width:20vw;
+}
+}
 /*mitra pelatihan*/
 
 section{
@@ -195,6 +222,7 @@ section{
     width:15vw;
 }
 /*mitra pelatihan*/
+
 /**Footer */
 
 footer{
