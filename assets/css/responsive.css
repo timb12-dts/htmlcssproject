@@ -50,6 +50,10 @@
         display: block;
         width: 100%;
     }
+    
+    .container-1 {
+        flex-direction: column;
+    }
     /*mitra and footer*/
     .wrapper{
         max-width:520px!important;
