@@ -181,8 +181,10 @@ btn-wrapper {
 }
 /*Tutup Profile*/
 
+/* DTS */
 .container-1 {
   display: flex;
+  max-width: 1100px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 10px;
@@ -206,6 +208,8 @@ btn-wrapper {
 .boxs img {
   width:20vw;
 }
+
+/*tutup DTS*/
 
 /*mitra pelatihan*/
 
