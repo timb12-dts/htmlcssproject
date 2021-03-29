@@ -190,14 +190,14 @@ btn-wrapper {
   border-radius: 10px;
   align-items: center;
   justify-content: space-between;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
   background-color:rgb(240, 248, 254);
 }
 
 .boxs {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 .boxs h2{
   font-size: 40px;
@@ -210,7 +210,7 @@ btn-wrapper {
   line-height: 1.5;
 }
 .boxs img {
-  width:20vw;
+  width:15vw;
 }
 
 /*tutup DTS*/
